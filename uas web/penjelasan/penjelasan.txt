@@ -1,0 +1,47 @@
+penjelasan code home :
+<header> adalah bagian untuk header dokumen.
+<nav> adalah elemen navigasi yang mengandung menu navigasi situs.
+class="navbar navbar-expand-lg fixed-top d-flex justify-content-center align-items-center header-transparent" adalah kelas Bootstrap yang menentukan gaya navbar, termasuk pengaturan lebar (navbar-expand-lg), posisi tetap di atas (fixed-top), dan penataan isi (d-flex justify-content-center align-items-center header-transparent).
+<button class="navbar-toggler" adalah tombol yang digunakan untuk memicu tampilan menu navigasi saat tampilan layar kecil.
+data-bs-toggle="collapse" dan data-bs-target="#navbarNavDropdown" digunakan untuk menunjukkan bahwa tombol toggler akan mengontrol elemen dengan id navbarNavDropdown saat diklik.
+ 
+ <section id="hero"> adalah elemen yang menandai bagian hero (bagian utama) dari halaman.
+<div class="hero-container text-center mt-4"> adalah div yang mengandung konten hero, dengan teks dan tombol.
+class="btn-scroll scrollto" dan class="btn btn-outline-primary" adalah kelas Bootstrap yang menentukan gaya tombol scroll dan tombol outline berwarna biru muda.
+
+<div class="services"> adalah div yang mengandung layanan-layanan yang ditawarkan.
+<div class="row row-cols-1 row-cols-md-3 g-4 services "> adalah div Bootstrap yang membagi layanan-layanan menjadi baris dengan satu kolom di perangkat seluler dan tiga kolom di perangkat dengan lebar MD (medium).
+<div class="col shadow p-3 mb-5"> adalah div Bootstrap yang menunjukkan kolom dengan bayangan dan margin bawah.
+<div class="card h-100"> adalah div Bootstrap yang menunjukkan kartu dengan tinggi 100% dari parentnya.
+<img src="image/bimbingan.jpg" class="card-img-top" alt="..."> adalah tag <img> untuk menampilkan gambar pada kartu, dengan kelas card-img-top dari Bootstrap untuk menempatkannya di bagian atas kartu.
+<div class="card-body"> adalah div Bootstrap yang berisi konten dari kartu.
+<h5 class="card-title">, <p class="card-text"> adalah tag untuk judul dan teks pada kartu.
+
+
+penjelasan abaut me :
+
+Penjelasan Kode:
+Bagian Header:
+<header>: Ini adalah bagian header dari halaman.
+<nav class="navbar navbar-expand-lg fixed-top header-transparent">: Ini adalah navbar Bootstrap yang responsif dengan kelas-kelas tambahan untuk styling seperti posisi tetap (fixed-top) dan transparansi pada header (header-transparent).
+<a class="navbar-brand" href="#">Logo</a>: Ini adalah tautan logo di navbar.
+<button class="navbar-toggler" ...>: Tombol toggler untuk menu navbar di perangkat seluler.
+<div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">: Bagian menu navbar yang akan dikendalikan oleh toggler.
+<ul class="navbar-nav">: Daftar item-menu navbar.
+Setiap <li class="nav-item"> ... </li>: Item-menu navbar dengan tautan ke halaman yang berbeda (href="...").
+Bagian Konten Utama:
+<div class="container content-wrapper">: Container utama untuk konten halaman dengan kelas content-wrapper.
+<div class="row">: Baris Bootstrap untuk mengatur kolom-kolom konten.
+<div class="col-md-4 text-center">: Kolom dengan lebar 4 di perangkat besar, menampilkan gambar profil, informasi kontak, tombol pengalaman, dan kemampuan (skills).
+<div class="col-md-8">: Kolom dengan lebar 8 di perangkat besar, menampilkan detail personal, pendidikan, dan informasi tambahan.
+Bagian Detail Saya:
+Informasi personal seperti nama, alamat, jenis kelamin, dll., ditampilkan dalam tabel.
+Kemampuan (skills) ditampilkan dengan menggunakan komponen progress bar Bootstrap.
+Bagian Pendidikan dan Tentang Saya:
+Informasi pendidikan dari SD hingga S1 ditampilkan dalam tabel.
+Deskripsi tentang diri sendiri ditampilkan dalam kartu dengan beberapa paragraf.
+Ringkasan:
+Kode HTML ini adalah bagian dari halaman web yang menggunakan Bootstrap untuk menata tata letak, navigasi, dan komponen lainnya secara responsif. Halaman ini menampilkan informasi personal, kemampuan, pendidikan, dan deskripsi diri sendiri dalam tata letak yang terstruktur dan mudah dinavigasi.
+
+
+penjelasan contact me:
